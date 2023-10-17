@@ -1,0 +1,56 @@
+body {
+  /* Define a fonte padrão e centraliza o texto */
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  margin: 0; /* Remove margens padrão do corpo da página */
+}
+
+#hero {
+  /* Estiliza a seção principal da página */
+  width: 592px;
+  margin: 0 auto 72px; /* Centraliza horizontalmente e adiciona margem na parte inferior */
+}
+
+#hero img {
+  /* Estiliza a imagem dentro da seção principal */
+  margin-bottom: 72px; /* Adiciona margem na parte inferior da imagem */
+}
+
+h1 {
+  /* Estiliza o título principal */
+  font-family: "Inter", sans-serif; /* Define a fonte */
+  font-size: 49px;
+  line-height: 56px; /* Altura da linha */
+  font-weight: normal; /* Peso da fonte */
+}
+
+h1 span {
+  font-weight: bold; /* Torna o texto no interior do span em negrito */
+}
+
+span, a {
+  color: #ff9900; /* Define a cor do texto em laranja */
+}
+
+p, #footer {
+  color: #7d7987; /* Define a cor do texto principal e do rodapé */
+  font-size: 14px; /* Tamanho da fonte */
+  line-height: 28px; /* Altura da linha */
+}
+
+#footer a + a {
+  margin-left: 28px; /* Adiciona margem à esquerda entre links no rodapé */
+}
+
+#line {
+  width: 568px; /* Define a largura da linha */
+  height: 0; /* Define a altura da linha para zero, criando uma linha invisível */
+  margin: 0 auto 8px; /* Centraliza horizontalmente e adiciona margem na parte inferior */
+  border: 1px solid #ECEFF2; /* Cria uma linha sólida com a cor específica */
+}
+
+#balls {
+  position: fixed; /* Fixa a posição no canto inferior direito da tela */
+  bottom: 0;
+  right: 0;
+}
